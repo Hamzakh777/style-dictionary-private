@@ -1,0 +1,16 @@
+{
+  "size": {
+    "icon": {
+      "compact": {
+        "s": { "value": 16 },
+        "m": { "value": 24 },
+        "l": { "value": 32 }
+      },
+      "normal": {
+        "s": { "value": 16 },
+        "m": { "value": 24 },
+        "l": { "value": 32 }
+      }
+    }
+  }
+}

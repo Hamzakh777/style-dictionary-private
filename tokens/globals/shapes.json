@@ -1,0 +1,14 @@
+{
+  "shapes": {
+    "compact": {
+      "square": { "value": 0 },
+      "xs": { "value": 2 },
+      "s": { "value": 4 },
+      "m": { "value": 8 },
+      "l": { "value": 12 },
+      "xl": { "value": 16 },
+      "xxl": { "value": 20 },
+      "circle": { "value": 9999 }
+    }
+  }
+}

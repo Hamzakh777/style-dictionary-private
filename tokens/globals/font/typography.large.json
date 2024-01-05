@@ -1,0 +1,80 @@
+{
+  "font": {
+    "typography": {
+      "display1": {
+        "weight": { "value": "font.weight.black" },
+        "text-transform": { "value": "uppercase" },
+        "font-size": { "value": 48 },
+        "line-height": { "value": 44 }
+      },
+      "title1": {
+        "weight": { "value": "{font.weight.bold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": 32 },
+        "line-height": { "value": 40 }
+      },
+      "title2": {
+        "weight": { "value": "{font.weight.bold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": 28 },
+        "line-height": { "value": 36 }
+      },
+      "title3": {
+        "weight": { "value": "{font.weight.bold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": 24 },
+        "line-height": { "value": 32 }
+      },
+      "title4": {
+        "weight": { "value": "{font.weight.bold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": 20 },
+        "line-height": { "value": 24 }
+      },
+      "headline1": {
+        "weight": { "value": "{font.weight.semibold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": 16 },
+        "line-height": { "value": 20 }
+      },
+      "body1": {
+        "weight": { "value": "{font.weight.regular}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": 16 },
+        "line-height": { "value": 20 }
+      },
+      "label1": {
+        "weight": { "value": "{font.weight.semibold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": 14 },
+        "line-height": { "value": 20 }
+      },
+      "label2": {
+        "weight": { "value": "{font.weight.regular}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": 14 },
+        "line-height": { "value": 20 }
+      },
+      "caption1": {
+        "weight": { "value": "{font.weight.semibold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": 12 },
+        "line-height": { "value": 16 }
+      },
+      "caption2": {
+        "weight": { "value": "{font.weight.regular}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": 12 },
+        "line-height": { "value": 16 }
+      },
+      "legal1": {
+        "weight": {
+          "value": "{font.weight.semibold}"
+        },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": 11 },
+        "line-height": { "value": 16 }
+      }
+    }
+  }
+}

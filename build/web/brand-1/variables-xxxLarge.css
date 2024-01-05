@@ -1,0 +1,55 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 05 Jan 2024 16:33:38 GMT
+ */
+
+.xxxLarge {
+  --font-typography-legal1-line-height: 20px;
+  --font-typography-legal1-font-size: 17px;
+  --font-typography-legal1-text-transform: none;
+  --font-typography-caption2-line-height: 24px;
+  --font-typography-caption2-font-size: 18px;
+  --font-typography-caption2-text-transform: none;
+  --font-typography-caption1-line-height: 24px;
+  --font-typography-caption1-font-size: 18px;
+  --font-typography-caption1-text-transform: none;
+  --font-typography-label2-line-height: 28px;
+  --font-typography-label2-font-size: 20px;
+  --font-typography-label2-text-transform: none;
+  --font-typography-label1-line-height: 28px;
+  --font-typography-label1-font-size: 20px;
+  --font-typography-label1-text-transform: none;
+  --font-typography-body1-line-height: 28px;
+  --font-typography-body1-font-size: 22px;
+  --font-typography-body1-text-transform: none;
+  --font-typography-headline1-line-height: 28px;
+  --font-typography-headline1-font-size: 22px;
+  --font-typography-headline1-text-transform: none;
+  --font-typography-title4-line-height: 32px;
+  --font-typography-title4-font-size: 28px;
+  --font-typography-title4-text-transform: none;
+  --font-typography-title3-line-height: 36px;
+  --font-typography-title3-font-size: 30px;
+  --font-typography-title3-text-transform: none;
+  --font-typography-title2-line-height: 44px;
+  --font-typography-title2-font-size: 34px;
+  --font-typography-title2-text-transform: none;
+  --font-typography-title1-line-height: 48px;
+  --font-typography-title1-font-size: 38px;
+  --font-typography-title1-text-transform: none;
+  --font-typography-display1-line-height: 44px;
+  --font-typography-display1-font-size: 54px;
+  --font-typography-display1-text-transform: uppercase;
+  --font-typography-legal1-weight: var(--font-weight-semibold);
+  --font-typography-caption2-weight: var(--font-weight-regular);
+  --font-typography-caption1-weight: var(--font-weight-semibold);
+  --font-typography-label2-weight: var(--font-weight-regular);
+  --font-typography-label1-weight: var(--font-weight-semibold);
+  --font-typography-body1-weight: var(--font-weight-regular);
+  --font-typography-headline1-weight: var(--font-weight-semibold);
+  --font-typography-title4-weight: var(--font-weight-bold);
+  --font-typography-title3-weight: var(--font-weight-bold);
+  --font-typography-title2-weight: var(--font-weight-bold);
+  --font-typography-title1-weight: var(--font-weight-bold);
+  --font-typography-display1-weight: var(--font-weight-black);
+}

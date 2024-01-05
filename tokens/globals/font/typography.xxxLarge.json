@@ -1,0 +1,78 @@
+{
+  "font": {
+    "typography": {
+      "display1": {
+        "weight": { "value": "{font.weight.black}" },
+        "text-transform": { "value": "uppercase" },
+        "font-size": { "value": "54px" },
+        "line-height": { "value": "44px" }
+      },
+      "title1": {
+        "weight": { "value": "{font.weight.bold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": "38px" },
+        "line-height": { "value": "48px" }
+      },
+      "title2": {
+        "weight": { "value": "{font.weight.bold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": "34px" },
+        "line-height": { "value": "44px" }
+      },
+      "title3": {
+        "weight": { "value": "{font.weight.bold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": "30px" },
+        "line-height": { "value": "36px" }
+      },
+      "title4": {
+        "weight": { "value": "{font.weight.bold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": "28px" },
+        "line-height": { "value": "32px" }
+      },
+      "headline1": {
+        "weight": { "value": "{font.weight.semibold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": "22px" },
+        "line-height": { "value": "28px" }
+      },
+      "body1": {
+        "weight": { "value": "{font.weight.regular}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": "22px" },
+        "line-height": { "value": "28px" }
+      },
+      "label1": {
+        "weight": { "value": "{font.weight.semibold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": "20px" },
+        "line-height": { "value": "28px" }
+      },
+      "label2": {
+        "weight": { "value": "{font.weight.regular}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": "20px" },
+        "line-height": { "value": "28px" }
+      },
+      "caption1": {
+        "weight": { "value": "{font.weight.semibold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": "18px" },
+        "line-height": { "value": "24px" }
+      },
+      "caption2": {
+        "weight": { "value": "{font.weight.regular}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": "18px" },
+        "line-height": { "value": "24px" }
+      },
+      "legal1": {
+        "weight": { "value": "{font.weight.semibold}" },
+        "text-transform": { "value": "none" },
+        "font-size": { "value": "17px" },
+        "line-height": { "value": "20px" }
+      }
+    }
+  }
+}
