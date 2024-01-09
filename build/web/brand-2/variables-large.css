@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Jan 2024 16:33:39 GMT
+ * Generated on Tue, 09 Jan 2024 15:43:26 GMT
  */
 
 .large {
@@ -40,7 +40,6 @@
   --font-typography-display1-line-height: 44;
   --font-typography-display1-font-size: 48;
   --font-typography-display1-text-transform: uppercase;
-  --font-typography-display1-weight: font.weight.black;
   --font-typography-legal1-weight: var(--font-weight-semibold);
   --font-typography-caption2-weight: var(--font-weight-regular);
   --font-typography-caption1-weight: var(--font-weight-semibold);
@@ -52,4 +51,5 @@
   --font-typography-title3-weight: var(--font-weight-bold);
   --font-typography-title2-weight: var(--font-weight-bold);
   --font-typography-title1-weight: var(--font-weight-bold);
+  --font-typography-display1-weight: var(--font-weight-black);
 }

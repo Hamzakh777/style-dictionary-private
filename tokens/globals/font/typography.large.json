@@ -2,7 +2,7 @@
   "font": {
     "typography": {
       "display1": {
-        "weight": { "value": "font.weight.black" },
+        "weight": { "value": "{font.weight.black}" },
         "text-transform": { "value": "uppercase" },
         "font-size": { "value": 48 },
         "line-height": { "value": 44 }

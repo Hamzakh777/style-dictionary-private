@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
- module.exports = {
-  mode: "jit",
+module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   darkMode: "class",
   theme: {
     extend: {
       color: {
+        brand: {
+          primary: "var(--color-brand-primary)",
+          secondary: "var(--color-brand-secondary)"
+        },
         core: {
           blue: {
             1: "var(--color-core-blue-1)",
@@ -349,10 +352,6 @@
             15: "var(--color-core-nude-15)",
             16: "var(--color-core-nude-16)"
           }
-        },
-        brand: {
-          primary: "var(--color-brand-primary)",
-          secondary: "var(--color-brand-secondary)"
         },
         base: {
           black: "var(--color-base-black)",

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Jan 2024 16:33:38 GMT
+ * Generated on Tue, 09 Jan 2024 15:43:25 GMT
  */
 
 .dark {
@@ -308,4 +308,6 @@
   --color-core-blue-3: #00134b;
   --color-core-blue-2: #000e39;
   --color-core-blue-1: #000a26;
+  --color-brand-secondary: #111111;
+  --color-brand-primary: #ffffff;
 }

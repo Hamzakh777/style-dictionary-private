@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Jan 2024 16:33:39 GMT
+ * Generated on Tue, 09 Jan 2024 15:43:26 GMT
  */
 
 :root {
@@ -136,41 +136,41 @@
   --font-weight-light: 300;
   --font-weight-extralight: 200;
   --font-weight-thin: 100;
-  --font-typography-legal1-line-height: 20px;
-  --font-typography-legal1-font-size: 17px;
+  --font-typography-legal1-line-height: 16px;
+  --font-typography-legal1-font-size: 11px;
   --font-typography-legal1-text-transform: none;
-  --font-typography-caption2-line-height: 24px;
-  --font-typography-caption2-font-size: 18px;
+  --font-typography-caption2-line-height: 16px;
+  --font-typography-caption2-font-size: 12px;
   --font-typography-caption2-text-transform: none;
-  --font-typography-caption1-line-height: 24px;
-  --font-typography-caption1-font-size: 18px;
+  --font-typography-caption1-line-height: 16px;
+  --font-typography-caption1-font-size: 12px;
   --font-typography-caption1-text-transform: none;
-  --font-typography-label2-line-height: 28px;
-  --font-typography-label2-font-size: 20px;
+  --font-typography-label2-line-height: 16px;
+  --font-typography-label2-font-size: 13px;
   --font-typography-label2-text-transform: none;
-  --font-typography-label1-line-height: 28px;
-  --font-typography-label1-font-size: 20px;
+  --font-typography-label1-line-height: 16px;
+  --font-typography-label1-font-size: 13px;
   --font-typography-label1-text-transform: none;
-  --font-typography-body1-line-height: 28px;
-  --font-typography-body1-font-size: 22px;
+  --font-typography-body1-line-height: 20px;
+  --font-typography-body1-font-size: 15px;
   --font-typography-body1-text-transform: none;
-  --font-typography-headline1-line-height: 28px;
-  --font-typography-headline1-font-size: 22px;
+  --font-typography-headline1-line-height: 20px;
+  --font-typography-headline1-font-size: 15px;
   --font-typography-headline1-text-transform: none;
-  --font-typography-title4-line-height: 32px;
-  --font-typography-title4-font-size: 28px;
+  --font-typography-title4-line-height: 24px;
+  --font-typography-title4-font-size: 19px;
   --font-typography-title4-text-transform: none;
-  --font-typography-title3-line-height: 36px;
-  --font-typography-title3-font-size: 30px;
+  --font-typography-title3-line-height: 32px;
+  --font-typography-title3-font-size: 23px;
   --font-typography-title3-text-transform: none;
-  --font-typography-title2-line-height: 44px;
-  --font-typography-title2-font-size: 34px;
+  --font-typography-title2-line-height: 36px;
+  --font-typography-title2-font-size: 27px;
   --font-typography-title2-text-transform: none;
-  --font-typography-title1-line-height: 48px;
-  --font-typography-title1-font-size: 38px;
+  --font-typography-title1-line-height: 40px;
+  --font-typography-title1-font-size: 31px;
   --font-typography-title1-text-transform: none;
   --font-typography-display1-line-height: 44px;
-  --font-typography-display1-font-size: 54px;
+  --font-typography-display1-font-size: 47px;
   --font-typography-display1-text-transform: uppercase;
   --button-height: 40px;
   --button-border-radius: 4px;
@@ -180,8 +180,6 @@
   --color-base-gray-medium: #999999;
   --color-base-gray-light: #cccccc;
   --color-base-black: #000000;
-  --color-brand-secondary: #aab8c2;
-  --color-brand-primary: #1da1f2;
   --color-core-nude-16: #140400;
   --color-core-nude-15: #280900;
   --color-core-nude-14: #3c0e00;
@@ -486,6 +484,8 @@
   --color-core-blue-3: #caeaff;
   --color-core-blue-2: #dff2ff;
   --color-core-blue-1: #f2faff;
+  --color-brand-secondary: #aab8c2;
+  --color-brand-primary: #1da1f2;
   --size-font-base: var(--size-font-medium); /* the base size of the font */
   --font-typography-legal1-weight: var(--font-weight-semibold);
   --font-typography-caption2-weight: var(--font-weight-regular);

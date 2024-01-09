@@ -1,8 +1,6 @@
 const StyleDictionaryPackage = require("style-dictionary");
 const { makeSdTailwindConfig } = require("sd-tailwindcss-transformer");
 
-// HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
-
 const colorModes = ["light", "dark"];
 const scaleModes = [
   "medium",
@@ -20,14 +18,13 @@ function getStyleDictionaryConfig(
   brand,
   platform = "web",
   mode = DEFAULT_COLOR_MODE,
-  scale = DEFAULT_SCALE_MODE
 ) {
   const allScalesModesMinusDefault = scaleModes.filter(
     (mode) => mode !== DEFAULT_SCALE_MODE
   );
 
   // This is saying find all files in the token folder
-  // that does not have color mode tags (light or dark)
+  // that does not have color mode tags (dark) as no tag is considered light 
   // and all scale modes except DEFAULT_SCALE_MODE
   let source = [
     `tokens/brands/${brand}/!(*.${colorModes
@@ -71,7 +68,7 @@ function getStyleDictionaryConfig(
     webCssFiles = {
       destination: `variables-${mode}.css`,
       format: `css/variables`,
-      // only outputting the tokens from files with '.dark' in the filepath
+      // only outputting the tokens from files with 'mode' in the filepath
       filter: (token) => token.filePath.indexOf(`.${mode}`) > -1,
       options: {
         outputReferences: true,
@@ -110,15 +107,30 @@ console.log("Build started...");
 
   console.log(`\nProcessing: [web] [dark] [${brand}] =>>>>>>> Tailwind`);
 
+
+  const allScalesModesMinusDefault = scaleModes.filter(
+    (mode) => mode !== DEFAULT_SCALE_MODE
+  );
+
+  // This is saying find all files in the token folder
+  // that does not have color mode tags (dark)
+  // and all scale modes except DEFAULT_SCALE_MODE
+  let source = [
+    `tokens/brands/${brand}/!(*.${colorModes
+      .concat(allScalesModesMinusDefault)
+      .join(`|*.`)}).json`,
+    `tokens/globals/**/!(*.${colorModes
+      .concat(allScalesModesMinusDefault)
+      .join(`|*.`)}).json`,
+    `tokens/platforms/web/!(*.${colorModes
+      .concat(allScalesModesMinusDefault)
+      .join(`|*.`)}).json`,
+  ];
   const sdConfig = makeSdTailwindConfig({
     type: "all",
     isVariables: true,
     buildPath: `build/web/${brand}/`,
-    source: [
-      `tokens/brands/${brand}/*.json`,
-      "tokens/globals/**/*.json",
-      `tokens/platforms/web/*.json`,
-    ],
+    source: source,
   });
 
   sdConfig.platforms["web"] = {
@@ -139,46 +151,6 @@ console.log("Build started...");
 
   console.log("\nEnd processing");
 });
-
-// ['default', 'brand-1', 'brand-2'].map(function (brand) {
-//   ['web'].map(function (platform) {
-
-//     console.log('\n==============================================');
-//     console.log(`\nProcessing: [${platform}] [${brand}]`);
-
-//     const sdConfig = makeSdTailwindConfig({
-//       type: 'all',
-//       isVariables: true,
-//       buildPath: `build/web/${brand}/`,
-//       source: [
-//         `tokens/brands/${brand}/*.json`,
-//         "tokens/globals/**/*.json",
-//         `tokens/platforms/${platform}/*.json`
-//       ]
-//     })
-
-//     sdConfig.platforms['web'] = {
-//       transformGroup: 'web',
-//       buildPath: `build/web/${brand}/`,
-//       files: [
-//         {
-//           destination: 'tailwind.css',
-//           format: 'css/variables',
-//           options: {
-//             outputReferences: true
-//           }
-//         }
-//       ]
-//     }
-
-//     const StyleDictionary = StyleDictionaryPackage.extend(sdConfig);
-
-//     StyleDictionary.buildAllPlatforms(platform);
-
-//     console.log('\nEnd processing');
-
-//   })
-// })
 
 console.log("\n==============================================");
 console.log("\nBuild completed!");
